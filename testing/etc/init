@@ -1,0 +1,3 @@
+#!/bin/sh
+/bin/busybox httpd -p 80 -h /var/www/html
+exec /bin/ash
